@@ -1,0 +1,214 @@
+:root {
+  --color-iris: #4d5ae5;
+  --color-ocean: #404bbf;
+  --color-navyblue: #2e2f42;
+  --color-green: #31d0aa;
+  --color-slate: #434455;
+  --color-lightslate: #8e8f99;
+  --color-cornflower: #e7e9fc;
+  --color-cloud: #f4f4fd;
+  --color-navybluemodel: #2e2f42;
+  --bcolor-gray: #2e2f42;
+  --color-white: #ffffff;
+  --color-dairy: #fcfcfc;
+}
+
+body {
+  font-family: "Raleway", sans-serif;
+  font-family: "Roboto", sans-serif;
+  color: var(--color-slate);
+  background-color: var(--color-white);
+}
+
+.list {
+  list-style: none;
+}
+.link {
+  text-decoration: none;
+}
+
+.logo {
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  color: var(--color-iris);
+  text-transform: uppercase;
+}
+
+.logo-span {
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  color: var(--color-navyblue);
+  text-transform: uppercase;
+}
+
+.font-nav {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--color-navyblue);
+  cursor: poiner;
+}
+
+.font-nav:hover {
+  color: var(--color-ocean);
+}
+
+.font-nav:focus {
+  color: var(--color-ocean);
+}
+
+.address {
+  font-style: normal;
+}
+
+.font-adress {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  font-style: normal;
+  color: var(--color-slate);
+}
+
+.font-adress:hover {
+  color: var(--color-ocean);
+}
+.font-adress:focus {
+  color: var(--color-ocean);
+}
+
+.header-backround {
+  background: var(--color-white);
+}
+
+.section-one-background {
+  background-color: var(--color-navyblue);
+}
+
+.order-service-button {
+  background: var(--color-iris);
+  cursor: pointer;
+  font-family: inherit;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  color: var(--color-white);
+  letter-spacing: 0.04em;
+}
+
+.order-service-button:hover {
+  background: var(--color-ocean);
+  font-family: inherit;
+}
+
+.order-service-button:focus {
+  background-color: var(--color-ocean);
+  font-family: inherit;
+}
+
+.text-h-one {
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+  color: var(--color-white);
+  text-align: center;
+}
+
+.text-h-two {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.11;
+  color: var(--color-navyblue);
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  text-align: center;
+}
+
+.text-h-three {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  color: var(--color-navyblue);
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  text-align: center;
+}
+.portfolio-text-h-two {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  color: var(--color-navyblue);
+  letter-spacing: 0.02em;
+}
+
+.text {
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--color-slate);
+  letter-spacing: 0.02em;
+}
+.section-four-background {
+  background: var(--color-cloud);
+}
+
+.list-backround {
+  background: var(--color-white);
+}
+
+.fotter-background {
+  background: var(--color-navyblue);
+}
+
+.logo-span-fotter {
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 1.17;
+  color: var(--color-cloud);
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+}
+
+.text-fotter {
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--color-cloud);
+  letter-spacing: 0.02em;
+}
+
+.portfolio-button {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  background: var(--color-cloud);
+  color: var(--color-iris);
+  text-align: center;
+}
+
+.portfolio-button:hover {
+  background: #404bbf;
+  cursor: pointer;
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--color-white);
+}
+.portfolio-button:focus {
+  background: #404bbf;
+  cursor: pointer;
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--color-white);
+}
