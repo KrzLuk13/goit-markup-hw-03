@@ -1,13 +1,7 @@
-html{
-  box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
 }
-
-*,
-*::before,
-*::after {
-  box-sizing: inherit;
-}
-
 
 :root {
   --color-iris: #4d5ae5;
@@ -33,7 +27,6 @@ body {
 
 .list {
   list-style: none;
-  display:flex
 }
 .link {
   text-decoration: none;
@@ -66,6 +59,9 @@ body {
   letter-spacing: 0.02em;
   color: var(--color-navyblue);
   cursor: poiner;
+  display: block;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 .font-nav:hover {
@@ -78,6 +74,7 @@ body {
 
 .address {
   font-style: normal;
+  margin-left: auto;
 }
 
 .font-adress {
@@ -102,6 +99,7 @@ body {
 
 .section-one-background {
   background-color: var(--color-navyblue);
+  padding: 188px 472px 188px 472px;
 }
 
 .order-service-button {
@@ -113,6 +111,11 @@ body {
   line-height: 1.5;
   color: var(--color-white);
   letter-spacing: 0.04em;
+  display: block;
+  margin: 0 auto;
+  padding: 16px 32px;
+  border: none;
+  border-radius: 4px;
 }
 
 .order-service-button:hover {
@@ -132,6 +135,9 @@ body {
   letter-spacing: 0.02em;
   color: var(--color-white);
   text-align: center;
+  max-width: 496px;
+  margin: 0 auto;
+  margin-bottom: 48px;
 }
 
 .text-h-two {
@@ -143,6 +149,14 @@ body {
   text-transform: capitalize;
   text-align: center;
 }
+.text-h-three-features {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  color: var(--color-navyblue);
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+}
 
 .text-h-three {
   font-size: 20px;
@@ -151,7 +165,6 @@ body {
   color: var(--color-navyblue);
   letter-spacing: 0.02em;
   text-transform: capitalize;
-  text-align: center;
 }
 .portfolio-text-h-two {
   font-size: 20px;
@@ -173,6 +186,11 @@ body {
 
 .list-backround {
   background: var(--color-white);
+  border-radius: 0px 0px 4px 4px;
+  background: var(--WHITE, #fff);
+  box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
+    0px 1px 1px 0px rgba(46, 47, 66, 0.16),
+    0px 1px 6px 0px rgba(46, 47, 66, 0.08);
 }
 
 .fotter-background {
@@ -194,6 +212,7 @@ body {
   line-height: 1.5;
   color: var(--color-cloud);
   letter-spacing: 0.02em;
+  width: 264px;
 }
 
 .portfolio-button {
@@ -232,79 +251,97 @@ body {
   margin-inline: auto;
 }
 
-.section-nav-bar{
+.header-container {
   display: flex;
-  width: 1050px;
-  align-items: flex-start;
-  gap: 27px;
-
+  align-items: center;
 }
 
-.studiobutton{
-  display: block;
-  width: 48px;
-  height: 48px;
-  padding-bottom: 24px;
+.section-nav-bar {
+  display: flex;
+  align-items: center;
+}
+
+.nav-list {
+  display: flex;
+  gap: 40px;
+  align-items: center;
+  margin-left: 76px;
+}
+
+.address-list {
+  display: flex;
+  gap: 40px;
+}
+
+.section {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+.section-two-container {
+  display: flex;
+  align-items: center;
+}
+
+.hide-h-two {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.section-two-list {
+  display: flex;
+  gap: 24px;
+}
+
+.text-section-two {
+  max-width: 264px;
+  margin-bottom: 8px;
+}
+
+.text-s2 {
+  width: 264px;
+}
+
+.text-s3 {
+  padding-top: 0px;
+  padding-bottom: 72px;
+}
+
+.section-three-list {
+  display: flex;
+  gap: 24px;
+}
+
+.section-four-list {
+  display: flex;
+  gap: 24px;
+}
+
+.text-s4 {
+  padding-bottom: 72px;
+}
+.img {
+  margin-bottom: 32px;
+}
+
+.text-ourteam {
+  width: 232px;
+  display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-  flex-shrink: 0;
+  gap: 8px;
+  padding-bottom: 32px;
 }
 
-.portfoliobutton{
-  display: flex;
-width: 66px;
-height: 48px;
-padding-bottom: 24px;
-justify-content: center;
-align-items: center;
-flex-shrink: 0;
-}
-
-.contactsbutton{
-  display: flex;
-width: 67px;
-height: 48px;
-align-items: flex-start;
-gap: 40px;
-flex-shrink: 0;
-}
-
-.addressbutton{
-  display: flex;
-  width: 153px;
-  height: 24px;
-  justify-content: center;
-  align-items: center;
-  flex-shrink: 0;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* .section {
-  width: 1440px;
-  height: 72px;
-  flex-shrink: 0;
-}
-
-.section-topline {
-  display: inline-flex;
-  width: 48px;
-  height: 48px;
-  padding-bottom: 24px;
-
-  align-items: center;
-  flex-shrink: 0;
+.footer-container {
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
