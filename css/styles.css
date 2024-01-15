@@ -1,3 +1,14 @@
+html{
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+
 :root {
   --color-iris: #4d5ae5;
   --color-ocean: #404bbf;
@@ -22,6 +33,7 @@ body {
 
 .list {
   list-style: none;
+  display:flex
 }
 .link {
   text-decoration: none;
@@ -221,12 +233,64 @@ body {
 }
 
 .section-nav-bar{
-  display:flex;
-  flex-direction:row;
-  justify-content:flex-start;
-  box-sizing: initial;
+  display: flex;
+  width: 1050px;
+  align-items: flex-start;
+  gap: 27px;
 
 }
+
+.studiobutton{
+  display: block;
+  width: 48px;
+  height: 48px;
+  padding-bottom: 24px;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+}
+
+.portfoliobutton{
+  display: flex;
+width: 66px;
+height: 48px;
+padding-bottom: 24px;
+justify-content: center;
+align-items: center;
+flex-shrink: 0;
+}
+
+.contactsbutton{
+  display: flex;
+width: 67px;
+height: 48px;
+align-items: flex-start;
+gap: 40px;
+flex-shrink: 0;
+}
+
+.addressbutton{
+  display: flex;
+  width: 153px;
+  height: 24px;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /* .section {
