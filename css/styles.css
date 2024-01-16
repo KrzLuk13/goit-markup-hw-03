@@ -41,6 +41,9 @@ body {
   color: var(--color-iris);
   text-transform: uppercase;
 }
+.logo-nav {
+  margin-right: 76px;
+}
 
 .logo-span {
   font-family: "Raleway", sans-serif;
@@ -50,7 +53,6 @@ body {
   letter-spacing: 0.03em;
   color: var(--color-navyblue);
   text-transform: uppercase;
-  margin-right: 76px;
 }
 
 .font-nav {
@@ -100,7 +102,8 @@ body {
 
 .section-one-background {
   background-color: var(--color-navyblue);
-  padding: 188px 472px 188px 472px;
+  padding-top: 188px;
+  padding-bottom: 188px;
 }
 
 .order-service-button {
