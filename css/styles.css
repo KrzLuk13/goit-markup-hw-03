@@ -295,10 +295,6 @@ body {
 .section-three {
   padding-bottom: 120px;
 }
-.section-two-container {
-  display: flex;
-  align-items: center;
-}
 
 .hide-h-two {
   position: absolute;
@@ -318,7 +314,9 @@ body {
   align-items: center;
   gap: 24px;
 }
-
+.list-items {
+  max-width: 264px;
+}
 .text-section-two {
   max-width: 264px;
   margin-bottom: 8px;
@@ -348,15 +346,7 @@ body {
 }
 
 .text-list-ourteam {
-  min-width: 232px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  padding-top: 32px;
-  padding-left: 16px;
-  padding-right: 16px;
-  padding-bottom: 32px;
+  padding: 32px 0;
 }
 
 .text-h-three-ourteam {
@@ -378,7 +368,7 @@ body {
   padding-top: 100px;
   padding-bottom: 100px;
 }
-img {
+.img {
   display: block;
 }
 
