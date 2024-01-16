@@ -186,6 +186,7 @@ body {
   color: var(--color-slate);
   letter-spacing: 0.02em;
 }
+
 .section-four-background {
   background: var(--color-cloud);
 }
@@ -336,20 +337,34 @@ body {
 }
 
 .text-section-four {
-  padding-bottom: 72px;
-}
-.img {
-  margin-bottom: 32px;
+  margin-bottom: 72px;
 }
 
-.text-ourteam {
+.text-list-ourteam {
   min-width: 232px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 8px;
+  padding-top: 32px;
+  padding-left: 16px;
+  padding-right: 16px;
   padding-bottom: 32px;
+}
+
+.text-h-three-ourteam {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  color: var(--color-navyblue);
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  text-align: center;
+  margin-bottom: 8px;
+}
+
+.text-ourteam {
+  text-align: center;
 }
 
 .footer-container {
