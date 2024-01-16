@@ -368,7 +368,7 @@ body {
   padding-top: 100px;
   padding-bottom: 100px;
 }
-.img {
+img {
   display: block;
 }
 
@@ -382,4 +382,7 @@ body {
   gap: 24px;
   padding-top: 96px;
   padding-bottom: 120px;
+}
+
+.section-three-items {
 }
